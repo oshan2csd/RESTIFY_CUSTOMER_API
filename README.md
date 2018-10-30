@@ -1,14 +1,14 @@
 # RESTIFY_CUSTOMER_API
 
-###restify - 
+### restify - 
 A Node.js web service framework for RESTful web services.
 very similar to how Express work. 
 Just little ddifferent syntax. All mongoose codes are similar.
 
 
-###Mongoose
+### Mongoose
 mongodb object modeling for node.js
 to create database models
 
-###mLab
+### mLab
 to mongodb deployment
