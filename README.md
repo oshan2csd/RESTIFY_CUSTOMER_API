@@ -18,5 +18,5 @@ to mongodb deployment
 1. npm init -y //creating package.json, this include all dependencies//
 2. npm i restify restify-errors mongoose mongoose-timestamp <br />
     retify-errors ==> handles errors elegently
-3. npm i -D nodemon // -D for developer dependency
+3. npm i -D nodemon // -D for developer dependency <br/>
                     // nodemon --> no need to restart everytime.
