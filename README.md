@@ -15,6 +15,6 @@ to mongodb deployment
 
 
 # Steps
-1. npm init -y
+1. npm init -y <!--creating package.json, this include all dependencies-->
 2. npm i restify restify-errors mongoose mongoose-timestamp <br />
     retify-errors ==> handles errors elegently
