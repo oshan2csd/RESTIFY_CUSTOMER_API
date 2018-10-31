@@ -7,14 +7,14 @@ Just little ddifferent syntax. All mongoose codes are similar.
 
 
 ### Mongoose
-mongodb object modeling for node.js
+mongodb object modeling for node.js \n
 to create database models
 
 ### mLab
 to mongodb deployment
 
 
-#Steps
+# Steps
 1. npm init -y
 2. npm i restify restify-errors mongoose mongoose-timestamp
     retify-errors ==> handles errors elegently
