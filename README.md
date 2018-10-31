@@ -7,7 +7,7 @@ Just little ddifferent syntax. All mongoose codes are similar.
 
 
 ### Mongoose
-mongodb object modeling for node.js \n
+mongodb object modeling for node.js
 to create database models
 
 ### mLab
@@ -16,5 +16,5 @@ to mongodb deployment
 
 # Steps
 1. npm init -y
-2. npm i restify restify-errors mongoose mongoose-timestamp
+2. npm i restify restify-errors mongoose mongoose-timestamp <br />
     retify-errors ==> handles errors elegently
