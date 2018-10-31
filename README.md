@@ -12,3 +12,9 @@ to create database models
 
 ### mLab
 to mongodb deployment
+
+
+#Steps
+1. npm init -y
+2. npm i restify restify-errors mongoose mongoose-timestamp
+    retify-errors ==> handles errors elegently
