@@ -1,10 +1,11 @@
 {
   "name": "RESTIFY_CUSTOMER_API",
   "version": "1.0.0",
-  "description": "A Node.js web service framework for RESTful web services.\r very similar to how Express work. \r Just little ddifferent syntax. All mongoose codes are similar.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "mongoose-timestamp": "^0.6.0",
     "restify": "^7.2.2",
     "restify-errors": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
   }
 }
