@@ -1,7 +1,7 @@
 //bringing required resources
 const restify = require('restify');
 const mongoose = require('mongoose');
-const config = require('/config');//config.js file created
+const config = require('./config');//config.js file created
 
 //setting up the server
 const server = restify.createServer();
@@ -22,4 +22,11 @@ const db = mongoose.connection;
 
 //to handle errors
 db.on('error', (err) => console.log(err));
+
+//once db connection open
+//make routes
+db.once('open', () => {
+  require('./routes/customers')(server);
+  console.log(`Server started on port ${config.PORT}`);
+});
 
