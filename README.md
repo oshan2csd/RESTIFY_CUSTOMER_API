@@ -25,3 +25,4 @@ to mongodb deployment
 6. in config file --> set up environment variables (an object)
 7. to create db, use mLab (hosts mongoDB databases)
 8. bring resources to index.js file
+9. create and open db connection
